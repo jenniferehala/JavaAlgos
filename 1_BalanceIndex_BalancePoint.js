@@ -77,7 +77,7 @@ function balancePoint(arr) {
     return false
 }
 
-console.log(balancePoint([2, 2, 4]))
+// console.log(balancePoint([2, 2, 4]))
 console.log(balancePoint([1, 2, 3, 4, 10])) // TRUE
 // ---> 1+2+3+4 = 10     10 == 10 so balanced
 console.log(balancePoint([1, 2, 3, 2, 1])) // FALSE
