@@ -6,12 +6,9 @@
 //  Taking advantage of the fact that array is sorted. 
 
 
-function binarySearch(arr, value){
 
 
-}
-
-function binarySearch(arr, n){
+function binarySearch(arr, n) {
     let mid = Math.floor(arr.length / 2);
     if (arr.length === 1 && arr[0] != n) {
         return false;
@@ -25,10 +22,9 @@ function binarySearch(arr, n){
     }
 }
 
-function binarySearchRecursive(arr, target){
-}
 
-// console.log(binarySearch([1,2,3,4,5,6,7,8,9,10], 9));
+
+console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 9));
 // ---> 1 2 3 4 5  |  6 7 8 9 10
 // ---> 6 7  |  8 9 10
 // ---> 8  [9]  10  (found)
