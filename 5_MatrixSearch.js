@@ -106,6 +106,3 @@ for(var i = 0; i < small.length; i++){
         }
     }
 }
-
-console.log(matrixSearch(big, small))
-console.log(matrixSearch(big, anotherSmall))
